@@ -23,7 +23,7 @@ module.exports = (testing = 'source', settings) => {
         moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
         moduleDirectories: ['node_modules', 'src'],
         testMatch: ['<rootDir>/tests/**/*.test.*'],
-        transformIgnorePatterns: ['<rootDir>/dist','<rootDir>/node_modules'],
+        transformIgnorePatterns: ['<rootDir>/dist', '<rootDir>/node_modules'],
         moduleNameMapper: {
             '\\.(scss|css|less)$': 'identity-obj-proxy',
             ...(isTestingBuild
