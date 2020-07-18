@@ -1,0 +1,45 @@
+{
+  "name": "jest-config-fabulator",
+  "version": "0.1.0",
+  "description": "Fabulator default jest config",
+  "keywords": [
+    "jest",
+    "jest-config",
+    "jestconfig"
+  ],
+  "homepage": "https://github.com/fabulator/jest-config-fabulator",
+  "bugs": {
+    "url": "https://github.com/fabulator/jest-config-fabulator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabulator/jest-config-fabulator.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Michal Ozogán <michal@ozogan.eu>",
+  "main": "./src/index.js",
+  "scripts": {
+    "lint": "eslint ./ --ext .js --ext .json",
+    "lint:fix": "npm run lint -- --fix",
+    "release": "semantic-release"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@types/jest": "^26.0.4",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^26.1.0",
+    "core-js": "^3.6.5",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.1.0",
+    "jest-junit": "^11.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "commitlint-config-fabulator": "^1.0.0",
+    "eslint-config-fabulator": "^1.0.0",
+    "semantic-release-config-fabulator": "^2.5.0"
+  }
+}
