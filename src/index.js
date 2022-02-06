@@ -7,6 +7,7 @@ const path = require('path');
  * @param {Object} settings - Extendable settings
  * @returns {Object} Jest settings
  */
+// eslint-disable-next-line default-param-last
 module.exports = (testing = 'source', settings) => {
     const isTestingBuild = testing === 'bundle' || testing === 'build';
 
