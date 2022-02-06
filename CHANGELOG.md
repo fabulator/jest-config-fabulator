@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 
 
+## v1.2.0 (2022-02-06)
+### Changed
+- [cdd3748](https://github.com/fabulator/jest-config-fabulator/commit/cdd374815c32222c7a7f357f254b453865186e8d) Update dependencies
+
 ## v1.1.0 (2021-07-18)
 ### Changed
 - [8728325](https://github.com/fabulator/jest-config-fabulator/commit/8728325ab6ecd10633571d3e1106b4f14e6a9db0) Update dependencies
