@@ -2,3 +2,4 @@
 tests
 *.config.js
 .*
+renovate.json
